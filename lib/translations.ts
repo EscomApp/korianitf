@@ -1,0 +1,355 @@
+export type Language = 'es' | 'fr' | 'en';
+
+export const translations = {
+  es: {
+    nav: {
+      home: 'Inicio',
+      about: 'Nosotros',
+      products: 'Productos',
+      contact: 'Contacto',
+    },
+    hero: {
+      slide1: {
+        title: 'Expertos en Comercio Internacional de Alimentos',
+        subtitle: 'Conectamos mercados globales con productos alimenticios de la más alta calidad',
+        cta: 'Descubra Nuestros Productos',
+      },
+      slide2: {
+        title: 'Sabores Auténticos de África',
+        subtitle: 'Especialistas en la importación de attieke y productos vivriers tradicionales',
+        cta: 'Conozca Más',
+      },
+      slide3: {
+        title: 'Calidad y Confianza',
+        subtitle: 'Más de años de experiencia en el sector de importación y exportación',
+        cta: 'Contáctenos',
+      },
+    },
+    about: {
+      title: 'Sobre Nosotros',
+      subtitle: 'Su socio de confianza en comercio internacional',
+      description: 'KORIANI TUNA FISHING SLU es una empresa especializada en la importación y exportación de productos alimenticios (vivriers). Con sede en España, servimos como puente entre los productores africanos y los mercados europeos, garantizando productos de la más alta calidad.',
+      mission: {
+        title: 'Nuestra Misión',
+        text: 'Facilitar el acceso a productos alimenticios auténticos y de calidad, conectando culturas a través del comercio justo y sostenible.',
+      },
+      vision: {
+        title: 'Nuestra Visión',
+        text: 'Ser el líder en la importación de productos vivriers en Europa, reconocidos por nuestra excelencia y compromiso con la calidad.',
+      },
+      values: {
+        title: 'Nuestros Valores',
+        text: 'Integridad, calidad, sostenibilidad y respeto por las tradiciones culturales en cada producto que ofrecemos.',
+      },
+    },
+    products: {
+      title: 'Nuestros Productos',
+      subtitle: 'Descubra nuestra selección de productos alimenticios de alta calidad',
+      viewDetails: 'Ver Detalles',
+      items: {
+        attieke: {
+          name: 'Attieke',
+          description: 'Cuscús de mandioca tradicional de Costa de Marfil, nuestro producto estrella.',
+          longDescription: 'El attieke es un cuscús de mandioca fermentada originario de Costa de Marfil. Es un alimento básico en la dieta de África Occidental, conocido por su textura única y sabor ligeramente ácido. Ofrecemos attieke de la más alta calidad, preparado siguiendo métodos tradicionales.',
+          origin: 'Costa de Marfil',
+          category: 'Vivriers',
+        },
+        plantain: {
+          name: 'Plátano Macho',
+          description: 'Plátanos de cocina frescos y de primera calidad, ideales para múltiples preparaciones.',
+          longDescription: 'Nuestros plátanos machos son seleccionados cuidadosamente de las mejores plantaciones. Perfectos para freír, asar o hervir, son un ingrediente esencial en la cocina africana y latina.',
+          origin: 'África Occidental',
+          category: 'Frutas',
+        },
+        cassava: {
+          name: 'Mandioca',
+          description: 'Raíz de mandioca fresca, base de numerosos platos tradicionales africanos.',
+          longDescription: 'La mandioca es una de las fuentes de carbohidratos más importantes en África. Ofrecemos mandioca fresca y de alta calidad, perfecta para preparar fufu, attiéké y otros platos tradicionales.',
+          origin: 'África Occidental',
+          category: 'Tubérculos',
+        },
+        spices: {
+          name: 'Especias Africanas',
+          description: 'Selección de especias auténticas para dar sabor a sus platos.',
+          longDescription: 'Nuestra colección de especias incluye pimientos, jengibre, nuez de cola y otras especias tradicionales africanas. Todas son de origen natural y seleccionadas por su frescura y calidad.',
+          origin: 'Varios países africanos',
+          category: 'Especias',
+        },
+        palmOil: {
+          name: 'Aceite de Palma',
+          description: 'Aceite de palma rojo natural, esencial en la gastronomía africana.',
+          longDescription: 'El aceite de palma rojo es un ingrediente fundamental en la cocina de África Occidental. Rico en vitaminas y con un sabor distintivo, es perfecto para salsas, guisos y frituras tradicionales.',
+          origin: 'Costa de Marfil',
+          category: 'Aceites',
+        },
+        driedFish: {
+          name: 'Pescado Seco',
+          description: 'Pescado seco y ahumado de alta calidad para sus recetas tradicionales.',
+          longDescription: 'Ofrecemos una variedad de pescados secos y ahumados, preparados siguiendo métodos tradicionales. Son perfectos para añadir sabor umami a sopas, guisos y salsas africanas.',
+          origin: 'Costa de Marfil',
+          category: 'Pescados',
+        },
+      },
+    },
+    contact: {
+      title: 'Contacto',
+      subtitle: 'Estamos aquí para ayudarle',
+      form: {
+        name: 'Nombre Completo',
+        email: 'Correo Electrónico',
+        phone: 'Teléfono',
+        subject: 'Asunto',
+        message: 'Mensaje',
+        submit: 'Enviar Mensaje',
+        sending: 'Enviando...',
+        success: '¡Mensaje enviado con éxito!',
+        error: 'Error al enviar el mensaje. Inténtelo de nuevo.',
+      },
+      info: {
+        address: 'Dirección',
+        phone: 'Teléfono',
+        email: 'Email',
+        hours: 'Horario de Atención',
+        hoursValue: 'Lunes - Viernes: 9:00 - 18:00',
+      },
+    },
+    footer: {
+      rights: 'Todos los derechos reservados',
+      company: 'KORIANI TUNA FISHING SLU',
+    },
+  },
+  fr: {
+    nav: {
+      home: 'Accueil',
+      about: 'À Propos',
+      products: 'Produits',
+      contact: 'Contact',
+    },
+    hero: {
+      slide1: {
+        title: 'Experts en Commerce International Alimentaire',
+        subtitle: 'Nous connectons les marchés mondiaux avec des produits alimentaires de haute qualité',
+        cta: 'Découvrez Nos Produits',
+      },
+      slide2: {
+        title: 'Saveurs Authentiques d\'Afrique',
+        subtitle: 'Spécialistes de l\'importation d\'attiéké et de produits vivriers traditionnels',
+        cta: 'En Savoir Plus',
+      },
+      slide3: {
+        title: 'Qualité et Confiance',
+        subtitle: 'Des années d\'expérience dans le secteur de l\'import-export',
+        cta: 'Contactez-Nous',
+      },
+    },
+    about: {
+      title: 'À Propos de Nous',
+      subtitle: 'Votre partenaire de confiance dans le commerce international',
+      description: 'KORIANI TUNA FISHING SLU est une entreprise spécialisée dans l\'importation et l\'exportation de produits alimentaires (vivriers). Basée en Espagne, nous servons de pont entre les producteurs africains et les marchés européens, garantissant des produits de la plus haute qualité.',
+      mission: {
+        title: 'Notre Mission',
+        text: 'Faciliter l\'accès à des produits alimentaires authentiques et de qualité, reliant les cultures par le commerce équitable et durable.',
+      },
+      vision: {
+        title: 'Notre Vision',
+        text: 'Être le leader de l\'importation de produits vivriers en Europe, reconnu pour notre excellence et notre engagement envers la qualité.',
+      },
+      values: {
+        title: 'Nos Valeurs',
+        text: 'Intégrité, qualité, durabilité et respect des traditions culturelles dans chaque produit que nous offrons.',
+      },
+    },
+    products: {
+      title: 'Nos Produits',
+      subtitle: 'Découvrez notre sélection de produits alimentaires de haute qualité',
+      viewDetails: 'Voir les Détails',
+      items: {
+        attieke: {
+          name: 'Attiéké',
+          description: 'Couscous de manioc traditionnel de Côte d\'Ivoire, notre produit phare.',
+          longDescription: 'L\'attiéké est un couscous de manioc fermenté originaire de Côte d\'Ivoire. C\'est un aliment de base dans le régime alimentaire de l\'Afrique de l\'Ouest, connu pour sa texture unique et son goût légèrement acide. Nous offrons un attiéké de la plus haute qualité, préparé selon des méthodes traditionnelles.',
+          origin: 'Côte d\'Ivoire',
+          category: 'Vivriers',
+        },
+        plantain: {
+          name: 'Banane Plantain',
+          description: 'Bananes à cuire fraîches et de première qualité, idéales pour de multiples préparations.',
+          longDescription: 'Nos bananes plantains sont soigneusement sélectionnées dans les meilleures plantations. Parfaites pour frire, griller ou bouillir, elles sont un ingrédient essentiel de la cuisine africaine et latino-américaine.',
+          origin: 'Afrique de l\'Ouest',
+          category: 'Fruits',
+        },
+        cassava: {
+          name: 'Manioc',
+          description: 'Racine de manioc fraîche, base de nombreux plats traditionnels africains.',
+          longDescription: 'Le manioc est l\'une des sources de glucides les plus importantes en Afrique. Nous offrons du manioc frais et de haute qualité, parfait pour préparer du foufou, de l\'attiéké et d\'autres plats traditionnels.',
+          origin: 'Afrique de l\'Ouest',
+          category: 'Tubercules',
+        },
+        spices: {
+          name: 'Épices Africaines',
+          description: 'Sélection d\'épices authentiques pour parfumer vos plats.',
+          longDescription: 'Notre collection d\'épices comprend des piments, du gingembre, de la noix de cola et d\'autres épices traditionnelles africaines. Toutes sont d\'origine naturelle et sélectionnées pour leur fraîcheur et leur qualité.',
+          origin: 'Divers pays africains',
+          category: 'Épices',
+        },
+        palmOil: {
+          name: 'Huile de Palme',
+          description: 'Huile de palme rouge naturelle, essentielle dans la gastronomie africaine.',
+          longDescription: 'L\'huile de palme rouge est un ingrédient fondamental dans la cuisine d\'Afrique de l\'Ouest. Riche en vitamines et avec une saveur distinctive, elle est parfaite pour les sauces, les ragoûts et les fritures traditionnelles.',
+          origin: 'Côte d\'Ivoire',
+          category: 'Huiles',
+        },
+        driedFish: {
+          name: 'Poisson Séché',
+          description: 'Poisson séché et fumé de haute qualité pour vos recettes traditionnelles.',
+          longDescription: 'Nous offrons une variété de poissons séchés et fumés, préparés selon des méthodes traditionnelles. Ils sont parfaits pour ajouter une saveur umami aux soupes, ragoûts et sauces africaines.',
+          origin: 'Côte d\'Ivoire',
+          category: 'Poissons',
+        },
+      },
+    },
+    contact: {
+      title: 'Contact',
+      subtitle: 'Nous sommes là pour vous aider',
+      form: {
+        name: 'Nom Complet',
+        email: 'Adresse Email',
+        phone: 'Téléphone',
+        subject: 'Sujet',
+        message: 'Message',
+        submit: 'Envoyer le Message',
+        sending: 'Envoi en cours...',
+        success: 'Message envoyé avec succès !',
+        error: 'Erreur lors de l\'envoi du message. Veuillez réessayer.',
+      },
+      info: {
+        address: 'Adresse',
+        phone: 'Téléphone',
+        email: 'Email',
+        hours: 'Heures d\'Ouverture',
+        hoursValue: 'Lundi - Vendredi: 9h00 - 18h00',
+      },
+    },
+    footer: {
+      rights: 'Tous droits réservés',
+      company: 'KORIANI TUNA FISHING SLU',
+    },
+  },
+  en: {
+    nav: {
+      home: 'Home',
+      about: 'About',
+      products: 'Products',
+      contact: 'Contact',
+    },
+    hero: {
+      slide1: {
+        title: 'Experts in International Food Trade',
+        subtitle: 'Connecting global markets with the highest quality food products',
+        cta: 'Discover Our Products',
+      },
+      slide2: {
+        title: 'Authentic Flavors from Africa',
+        subtitle: 'Specialists in importing attieke and traditional vivrier products',
+        cta: 'Learn More',
+      },
+      slide3: {
+        title: 'Quality and Trust',
+        subtitle: 'Years of experience in the import-export sector',
+        cta: 'Contact Us',
+      },
+    },
+    about: {
+      title: 'About Us',
+      subtitle: 'Your trusted partner in international trade',
+      description: 'KORIANI TUNA FISHING SLU is a company specialized in the import and export of food products (vivriers). Based in Spain, we serve as a bridge between African producers and European markets, ensuring products of the highest quality.',
+      mission: {
+        title: 'Our Mission',
+        text: 'To facilitate access to authentic, quality food products, connecting cultures through fair and sustainable trade.',
+      },
+      vision: {
+        title: 'Our Vision',
+        text: 'To be the leader in importing vivrier products in Europe, recognized for our excellence and commitment to quality.',
+      },
+      values: {
+        title: 'Our Values',
+        text: 'Integrity, quality, sustainability, and respect for cultural traditions in every product we offer.',
+      },
+    },
+    products: {
+      title: 'Our Products',
+      subtitle: 'Discover our selection of high-quality food products',
+      viewDetails: 'View Details',
+      items: {
+        attieke: {
+          name: 'Attieke',
+          description: 'Traditional cassava couscous from Ivory Coast, our flagship product.',
+          longDescription: 'Attieke is a fermented cassava couscous originating from Ivory Coast. It is a staple food in the West African diet, known for its unique texture and slightly sour taste. We offer the highest quality attieke, prepared following traditional methods.',
+          origin: 'Ivory Coast',
+          category: 'Vivriers',
+        },
+        plantain: {
+          name: 'Plantain',
+          description: 'Fresh, premium cooking bananas, ideal for multiple preparations.',
+          longDescription: 'Our plantains are carefully selected from the best plantations. Perfect for frying, grilling, or boiling, they are an essential ingredient in African and Latin cuisine.',
+          origin: 'West Africa',
+          category: 'Fruits',
+        },
+        cassava: {
+          name: 'Cassava',
+          description: 'Fresh cassava root, the base of numerous traditional African dishes.',
+          longDescription: 'Cassava is one of the most important carbohydrate sources in Africa. We offer fresh, high-quality cassava, perfect for preparing fufu, attieke, and other traditional dishes.',
+          origin: 'West Africa',
+          category: 'Tubers',
+        },
+        spices: {
+          name: 'African Spices',
+          description: 'Selection of authentic spices to flavor your dishes.',
+          longDescription: 'Our spice collection includes peppers, ginger, kola nut, and other traditional African spices. All are naturally sourced and selected for their freshness and quality.',
+          origin: 'Various African countries',
+          category: 'Spices',
+        },
+        palmOil: {
+          name: 'Palm Oil',
+          description: 'Natural red palm oil, essential in African gastronomy.',
+          longDescription: 'Red palm oil is a fundamental ingredient in West African cuisine. Rich in vitamins and with a distinctive flavor, it is perfect for sauces, stews, and traditional frying.',
+          origin: 'Ivory Coast',
+          category: 'Oils',
+        },
+        driedFish: {
+          name: 'Dried Fish',
+          description: 'High-quality dried and smoked fish for your traditional recipes.',
+          longDescription: 'We offer a variety of dried and smoked fish, prepared following traditional methods. They are perfect for adding umami flavor to soups, stews, and African sauces.',
+          origin: 'Ivory Coast',
+          category: 'Seafood',
+        },
+      },
+    },
+    contact: {
+      title: 'Contact',
+      subtitle: 'We are here to help you',
+      form: {
+        name: 'Full Name',
+        email: 'Email Address',
+        phone: 'Phone',
+        subject: 'Subject',
+        message: 'Message',
+        submit: 'Send Message',
+        sending: 'Sending...',
+        success: 'Message sent successfully!',
+        error: 'Error sending message. Please try again.',
+      },
+      info: {
+        address: 'Address',
+        phone: 'Phone',
+        email: 'Email',
+        hours: 'Business Hours',
+        hoursValue: 'Monday - Friday: 9:00 AM - 6:00 PM',
+      },
+    },
+    footer: {
+      rights: 'All rights reserved',
+      company: 'KORIANI TUNA FISHING SLU',
+    },
+  },
+};
