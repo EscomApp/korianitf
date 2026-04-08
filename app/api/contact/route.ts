@@ -195,8 +195,9 @@ ${message}
   } catch (error) {
     console.error('Contact form error:', error);
     return NextResponse.json(
-      { error: `Failed to send email . Please try again later. ` },
+      { error: `Failed to send email ${error} ${process.env.EMAIL_HOST} ${process.env.EMAIL_USER}  . Please try again later. ` },
       { status: 500 }
     );
   }
 }
+
