@@ -172,7 +172,7 @@ export class ProductsSectionComponent {
       nameKey: 'product.attieke.name',
       descriptionKey: 'product.attieke.description',
       detailsKey: 'product.attieke.details',
-      image: 'https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=800&q=80',
+      image: 'https://fr.apanews.net/wp-content/uploads/sites/2/2024/12/20241204_235338.jpg',
       featured: true
     },
     {

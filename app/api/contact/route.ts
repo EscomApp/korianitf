@@ -195,7 +195,7 @@ ${message}
   } catch (error) {
     console.error('Contact form error:', error);
     return NextResponse.json(
-      { error: 'Failed to send email. Please try again later.' },
+      { error: `Failed to send email . Please try again later. ` },
       { status: 500 }
     );
   }

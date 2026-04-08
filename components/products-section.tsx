@@ -8,7 +8,7 @@ import { useLanguage } from '@/lib/language-context';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
 
 const productImages = {
-  attieke: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&q=80',
+  attieke: 'https://fr.apanews.net/wp-content/uploads/sites/2/2024/12/20241204_235338.jpg',
   plantain: 'https://images.unsplash.com/photo-1603052875302-d376b7c0638a?w=600&q=80',
   cassava: 'https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=600&q=80',
   spices: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80',
