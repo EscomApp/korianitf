@@ -121,7 +121,7 @@ export async function POST(request: NextRequest) {
       from: process.env.EMAIL_USER,
       to: process.env.EMAIL_USER || 'info@korianituna.com',
       replyTo: email,
-      subject: `[KORIANI TUNA] Nouveau Contact -> : ${subject || 'No Subject'}`,
+      subject: `[KORIANI TUNA] Nouveau message : ${subject || 'No Subject'}`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -195,7 +195,7 @@ ${message}
   } catch (error) {
     console.error('Contact form error:', error);
     return NextResponse.json(
-      { error: `Failed to send email ${error} ${process.env.EMAIL_HOST} ${process.env.EMAIL_USER}  . Please try again later. ` },
+      { error: `Failed to send email  . Please try again later. ` },
       { status: 500 }
     );
   }
