@@ -121,7 +121,7 @@ export async function POST(request: NextRequest) {
       from: process.env.EMAIL_USER,
       to: process.env.EMAIL_USER || 'info@korianituna.com',
       replyTo: email,
-      subject: `[KORIANI TUNA] New Contact: ${subject || 'No Subject'}`,
+      subject: `[KORIANI TUNA] Nouveau Contact: ${subject || 'No Subject'}`,
       html: `
         <!DOCTYPE html>
         <html>
