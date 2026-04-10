@@ -180,7 +180,14 @@ export class ProductsSectionComponent {
       nameKey: 'product.plantain.name',
       descriptionKey: 'product.plantain.description',
       detailsKey: 'product.plantain.details',
-      image: 'https://images.unsplash.com/photo-1603052875302-d376b7c0638a?auto=format&fit=crop&w=800&q=80'
+      image: 'https://upload.wikimedia.org/wikipedia/commons/3/32/Plantains.jpg'
+    },
+    {
+      id: 'sweet-banana',
+      nameKey: 'product.sweetBanana.name',
+      descriptionKey: 'product.sweetBanana.description',
+      detailsKey: 'product.sweetBanana.details',
+      image: 'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=800&q=80'
     },
     {
       id: 'cassava',
@@ -194,6 +201,13 @@ export class ProductsSectionComponent {
       nameKey: 'product.palmOil.name',
       descriptionKey: 'product.palmOil.description',
       detailsKey: 'product.palmOil.details',
+      image: 'https://marketplace.agrosfer.co/_next/image?url=https%3A%2F%2Fapi.agrosfer.co%2Fstorage%2Fmarkeplace%2Fproduct%2Fwhatsapp_image_2025_02_03_a_105316_45fb9cf5jpg_1738576581&w=2048&q=75'
+    },
+    {
+      id: 'red-oil',
+      nameKey: 'product.redOil.name',
+      descriptionKey: 'product.redOil.description',
+      detailsKey: 'product.redOil.details',
       image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80'
     },
     {

@@ -87,10 +87,10 @@ export function Header() {
             </div>
             <div className="hidden sm:block">
               <p className={`font-bold text-lg tracking-tight transition-colors ${isScrolled ? 'text-foreground' : 'text-white'}`}>
-                KORIANI TUNA
+                KORIANI TUNA FISHING SLU
               </p>
               <p className={`text-xs font-medium transition-colors ${isScrolled ? 'text-muted-foreground' : 'text-white/70'}`}>
-                FISHING SLU
+                IMPORT - EXPORT
               </p>
             </div>
           </a>

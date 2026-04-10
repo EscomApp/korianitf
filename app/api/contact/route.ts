@@ -119,7 +119,7 @@ export async function POST(request: NextRequest) {
     // Email content
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_USER || 'info@korianituna.com',
+      to: process.env.EMAIL_USER || 'site@korianitfish.es',
       replyTo: email,
       subject: `[KORIANI TUNA] Nouveau message : ${subject || 'No Subject'}`,
       html: `

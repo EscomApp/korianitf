@@ -92,15 +92,15 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5" />
-                <span className="text-white/70">Madrid, España</span>
+                <span className="text-white/70">48370 Bermeo Bizkaia</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-primary mt-0.5" />
-                <span className="text-white/70">+34 XXX XXX XXX</span>
+                <span className="text-white/70">+34 671 79 09 67</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-primary mt-0.5" />
-                <span className="text-white/70">info@korianituna.com</span>
+                <span className="text-white/70">site@korianitfish.es</span>
               </li>
             </ul>
           </div>

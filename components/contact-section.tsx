@@ -94,17 +94,17 @@ export function ContactSection() {
     {
       icon: MapPin,
       label: t.contact.info.address,
-      value: 'Madrid, España',
+      value: '48370 Bermeo Bizkaia',
     },
     {
       icon: Phone,
       label: t.contact.info.phone,
-      value: '+34 XXX XXX XXX',
+      value: '+34 671 79 09 67',
     },
     {
       icon: Mail,
       label: t.contact.info.email,
-      value: 'info@korianituna.com',
+      value: 'site@korianitfish.es',
     },
     {
       icon: Clock,
@@ -240,7 +240,7 @@ export function ContactSection() {
                       value={formState.phone}
                       onChange={handleChange}
                       className="w-full px-5 py-4 bg-muted/50 border border-border rounded-xl focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all text-foreground placeholder:text-muted-foreground"
-                      placeholder="+34 XXX XXX XXX"
+                      placeholder="+34 671 79 09 67"
                     />
                   </div>
                   <div>

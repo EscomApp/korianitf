@@ -4,7 +4,7 @@ export const translations = {
   es: {
     nav: {
       home: 'Inicio',
-      about: 'Nosotros',
+      about: 'KORIANI TUNA FISHING SLU',
       products: 'Productos',
       contact: 'Contacto',
     },
@@ -26,16 +26,16 @@ export const translations = {
       },
     },
     about: {
-      title: 'Sobre Nosotros',
+      title: 'Sobre KORIANI TUNA FISHING SLU',
       subtitle: 'Su socio de confianza en comercio internacional',
-      description: 'KORIANI TUNA FISHING SLU es una empresa especializada en la importación y exportación de productos alimenticios (vivriers). Con sede en España, servimos como puente entre los productores africanos y los mercados europeos, garantizando productos de la más alta calidad.',
+      description: 'KORIANI TUNA FISHING SLU es una empresa especializada en la importación y exportación de productos alimenticios (Víveres). Con sede en España, servimos como puente entre los productores africanos y los mercados europeos, garantizando productos de la más alta calidad (exclusivas).',
       mission: {
         title: 'Nuestra Misión',
         text: 'Facilitar el acceso a productos alimenticios auténticos y de calidad, conectando culturas a través del comercio justo y sostenible.',
       },
       vision: {
         title: 'Nuestra Visión',
-        text: 'Ser el líder en la importación de productos vivriers en Europa, reconocidos por nuestra excelencia y compromiso con la calidad.',
+        text: 'Ser líder en la importación de productos alimenticios en Europa, reconocidos por nuestra excelencia y compromiso con la calidad.',
       },
       values: {
         title: 'Nuestros Valores',
@@ -52,7 +52,7 @@ export const translations = {
           description: 'Cuscús de mandioca tradicional de Costa de Marfil, nuestro producto estrella.',
           longDescription: 'El attieke es un cuscús de mandioca fermentada originario de Costa de Marfil. Es un alimento básico en la dieta de África Occidental, conocido por su textura única y sabor ligeramente ácido. Ofrecemos attieke de la más alta calidad, preparado siguiendo métodos tradicionales.',
           origin: 'Costa de Marfil',
-          category: 'Vivriers',
+          category: 'Alimentarias',
         },
         plantain: {
           name: 'Plátano Macho',
@@ -61,10 +61,17 @@ export const translations = {
           origin: 'África Occidental',
           category: 'Frutas',
         },
+        sweetBanana: {
+          name: 'Plátano de Costa de Marfil',
+          description: 'Bananas dulces frescas, apreciadas por su sabor suave y natural.',
+          longDescription: 'La banana dulce es una fruta tropical lista para consumir, ideal para postres, batidos o consumo diario. Seleccionamos bananas de calidad premium para garantizar frescura y sabor.',
+          origin: 'África Occidental',
+          category: 'Frutas',
+        },
         cassava: {
-          name: 'Mandioca',
-          description: 'Raíz de mandioca fresca, base de numerosos platos tradicionales africanos.',
-          longDescription: 'La mandioca es una de las fuentes de carbohidratos más importantes en África. Ofrecemos mandioca fresca y de alta calidad, perfecta para preparar fufu, attiéké y otros platos tradicionales.',
+          name: 'Zanahorias',
+          description: 'Zanahorias frescas y nutritivas, ideales para una alimentación saludable.',
+          longDescription: 'Nuestras zanahorias se seleccionan por su frescura, textura y sabor. Son perfectas para ensaladas, guisos y preparaciones culinarias variadas.',
           origin: 'África Occidental',
           category: 'Tubérculos',
         },
@@ -79,6 +86,13 @@ export const translations = {
           name: 'Aceite de Palma',
           description: 'Aceite de palma rojo natural, esencial en la gastronomía africana.',
           longDescription: 'El aceite de palma rojo es un ingrediente fundamental en la cocina de África Occidental. Rico en vitaminas y con un sabor distintivo, es perfecto para salsas, guisos y frituras tradicionales.',
+          origin: 'Costa de Marfil',
+          category: 'Aceites',
+        },
+        redOil: {
+          name: 'Aceite Rojo',
+          description: 'Aceite rojo tradicional de alta calidad para recetas auténticas.',
+          longDescription: 'Nuestro aceite rojo se obtiene de materias primas seleccionadas y conserva su color, sabor y propiedades nutricionales, ideal para platos africanos tradicionales.',
           origin: 'Costa de Marfil',
           category: 'Aceites',
         },
@@ -145,14 +159,14 @@ export const translations = {
     about: {
       title: 'À Propos de Nous',
       subtitle: 'Votre partenaire de confiance dans le commerce international',
-      description: 'KORIANI TUNA FISHING SLU est une entreprise spécialisée dans l\'importation et l\'exportation de produits alimentaires (vivriers). Basée en Espagne, nous servons de pont entre les producteurs africains et les marchés européens, garantissant des produits de la plus haute qualité.',
+      description: 'KORIANI TUNA FISHING SLU est une entreprise spécialisée dans l\'importation et l\'exportation de produits alimentaires (vivres). Basée en Espagne, nous servons de pont entre les producteurs africains et les marchés européens, garantissant des produits de la plus haute qualité (exclusifs).',
       mission: {
         title: 'Notre Mission',
         text: 'Faciliter l\'accès à des produits alimentaires authentiques et de qualité, reliant les cultures par le commerce équitable et durable.',
       },
       vision: {
         title: 'Notre Vision',
-        text: 'Être le leader de l\'importation de produits vivriers en Europe, reconnu pour notre excellence et notre engagement envers la qualité.',
+        text: 'Être leader dans l\'importation de produits alimentaires en Europe, reconnus pour notre excellence et notre engagement envers la qualité.',
       },
       values: {
         title: 'Nos Valeurs',
@@ -169,7 +183,7 @@ export const translations = {
           description: 'Couscous de manioc traditionnel de Côte d\'Ivoire, notre produit phare.',
           longDescription: 'L\'attiéké est un couscous de manioc fermenté originaire de Côte d\'Ivoire. C\'est un aliment de base dans le régime alimentaire de l\'Afrique de l\'Ouest, connu pour sa texture unique et son goût légèrement acide. Nous offrons un attiéké de la plus haute qualité, préparé selon des méthodes traditionnelles.',
           origin: 'Côte d\'Ivoire',
-          category: 'Vivriers',
+          category: 'Alimentaires',
         },
         plantain: {
           name: 'Banane Plantain',
@@ -178,10 +192,17 @@ export const translations = {
           origin: 'Afrique de l\'Ouest',
           category: 'Fruits',
         },
+        sweetBanana: {
+          name: 'Plantain de Côte d\'Ivoire',
+          description: 'Bananes douces fraîches, appréciées pour leur goût naturel et sucré.',
+          longDescription: 'La banane douce est un fruit tropical prêt à consommer, idéal pour les desserts, smoothies et la consommation quotidienne. Nous sélectionnons des produits premium pour garantir fraîcheur et saveur.',
+          origin: 'Afrique de l\'Ouest',
+          category: 'Fruits',
+        },
         cassava: {
-          name: 'Manioc',
-          description: 'Racine de manioc fraîche, base de nombreux plats traditionnels africains.',
-          longDescription: 'Le manioc est l\'une des sources de glucides les plus importantes en Afrique. Nous offrons du manioc frais et de haute qualité, parfait pour préparer du foufou, de l\'attiéké et d\'autres plats traditionnels.',
+          name: 'Carottes',
+          description: 'Carottes fraîches et nutritives, idéales pour une alimentation saine.',
+          longDescription: 'Nos carottes sont sélectionnées pour leur fraîcheur, leur texture et leur saveur. Elles sont parfaites pour les salades, les ragoûts et de nombreuses préparations culinaires.',
           origin: 'Afrique de l\'Ouest',
           category: 'Tubercules',
         },
@@ -196,6 +217,13 @@ export const translations = {
           name: 'Huile de Palme',
           description: 'Huile de palme rouge naturelle, essentielle dans la gastronomie africaine.',
           longDescription: 'L\'huile de palme rouge est un ingrédient fondamental dans la cuisine d\'Afrique de l\'Ouest. Riche en vitamines et avec une saveur distinctive, elle est parfaite pour les sauces, les ragoûts et les fritures traditionnelles.',
+          origin: 'Côte d\'Ivoire',
+          category: 'Huiles',
+        },
+        redOil: {
+          name: 'Huile Rouge',
+          description: 'Huile rouge traditionnelle de haute qualité pour des recettes authentiques.',
+          longDescription: 'Notre huile rouge est issue de matières premières sélectionnées et conserve sa couleur, son goût et ses qualités nutritionnelles, idéale pour les plats africains traditionnels.',
           origin: 'Côte d\'Ivoire',
           category: 'Huiles',
         },
@@ -262,14 +290,14 @@ export const translations = {
     about: {
       title: 'About Us',
       subtitle: 'Your trusted partner in international trade',
-      description: 'KORIANI TUNA FISHING SLU is a company specialized in the import and export of food products (vivriers). Based in Spain, we serve as a bridge between African producers and European markets, ensuring products of the highest quality.',
+      description: 'KORIANI TUNA FISHING SLU is a company specialized in the import and export of food products (provisions). Based in Spain, we serve as a bridge between African producers and European markets, ensuring products of the highest quality (exclusive).',
       mission: {
         title: 'Our Mission',
         text: 'To facilitate access to authentic, quality food products, connecting cultures through fair and sustainable trade.',
       },
       vision: {
         title: 'Our Vision',
-        text: 'To be the leader in importing vivrier products in Europe, recognized for our excellence and commitment to quality.',
+        text: 'To be a leader in importing food products in Europe, recognized for our excellence and commitment to quality.',
       },
       values: {
         title: 'Our Values',
@@ -286,7 +314,7 @@ export const translations = {
           description: 'Traditional cassava couscous from Ivory Coast, our flagship product.',
           longDescription: 'Attieke is a fermented cassava couscous originating from Ivory Coast. It is a staple food in the West African diet, known for its unique texture and slightly sour taste. We offer the highest quality attieke, prepared following traditional methods.',
           origin: 'Ivory Coast',
-          category: 'Vivriers',
+          category: 'Food Products',
         },
         plantain: {
           name: 'Plantain',
@@ -295,10 +323,17 @@ export const translations = {
           origin: 'West Africa',
           category: 'Fruits',
         },
+        sweetBanana: {
+          name: 'Plantain from Ivory Coast',
+          description: 'Fresh sweet bananas, appreciated for their natural mild flavor.',
+          longDescription: 'Sweet banana is a ready-to-eat tropical fruit, ideal for desserts, smoothies, and daily consumption. We select premium bananas to ensure freshness and taste.',
+          origin: 'West Africa',
+          category: 'Fruits',
+        },
         cassava: {
-          name: 'Cassava',
-          description: 'Fresh cassava root, the base of numerous traditional African dishes.',
-          longDescription: 'Cassava is one of the most important carbohydrate sources in Africa. We offer fresh, high-quality cassava, perfect for preparing fufu, attieke, and other traditional dishes.',
+          name: 'Carrots',
+          description: 'Fresh and nutritious carrots, ideal for healthy nutrition.',
+          longDescription: 'Our carrots are selected for freshness, texture, and flavor. They are perfect for salads, stews, and a wide range of culinary preparations.',
           origin: 'West Africa',
           category: 'Tubers',
         },
@@ -313,6 +348,13 @@ export const translations = {
           name: 'Palm Oil',
           description: 'Natural red palm oil, essential in African gastronomy.',
           longDescription: 'Red palm oil is a fundamental ingredient in West African cuisine. Rich in vitamins and with a distinctive flavor, it is perfect for sauces, stews, and traditional frying.',
+          origin: 'Ivory Coast',
+          category: 'Oils',
+        },
+        redOil: {
+          name: 'Red Oil',
+          description: 'Traditional high-quality red oil for authentic recipes.',
+          longDescription: 'Our red oil is sourced from selected raw materials and keeps its color, taste, and nutritional value, ideal for traditional African dishes.',
           origin: 'Ivory Coast',
           category: 'Oils',
         },
