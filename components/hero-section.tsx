@@ -8,7 +8,7 @@ import { useLanguage } from '@/lib/language-context';
 const slides = [
   {
     key: 'slide1',
-    image: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1920&q=80',
+    image: 'https://look.jmgbb.com/images/dwIEVHD_L4.jpg',
   },
   {
     key: 'slide2',
