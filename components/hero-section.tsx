@@ -12,11 +12,11 @@ const slides = [
   },
   {
     key: 'slide2',
-    image: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1920&q=80',
+    image: 'https://look.jmgbb.com/images/m6cwARjtst.jpg',
   },
   {
     key: 'slide3',
-    image: 'https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=1920&q=80',
+    image: 'https://look.jmgbb.com/images/AfSSXA9KNm.jpg',
   },
 ];
 

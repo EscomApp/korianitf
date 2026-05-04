@@ -86,7 +86,7 @@ export const translations = {
           name: 'Aceite de Palma',
           description: 'Aceite de palma natural, esencial en la gastronomía africana.',
           longDescription: 'El aceite de palma es un ingrediente fundamental en la cocina de África Occidental. Rico en vitaminas y con un sabor distintivo, es perfecto para salsas, guisos y frituras tradicionales.',
-          origin: 'Costa de Marfil',
+          origin: 'España',
           category: 'Aceites',
         },
         // redOil: {
@@ -217,7 +217,7 @@ export const translations = {
           name: 'Huile de Palme',
           description: 'Huile de palme naturelle, essentielle dans la gastronomie africaine.',
           longDescription: 'L\'huile de palme est un ingrédient fondamental dans la cuisine d\'Afrique de l\'Ouest. Riche en vitamines et avec une saveur distinctive, elle est parfaite pour les sauces, les ragoûts et les fritures traditionnelles.',
-          origin: 'Côte d\'Ivoire',
+          origin: 'Espagne',
           category: 'Huiles',
         },
         // redOil: {
@@ -348,7 +348,7 @@ export const translations = {
           name: 'Palm Oil',
           description: 'Natural palm oil, essential in African gastronomy.',
           longDescription: 'Palm oil is a fundamental ingredient in West African cuisine. Rich in vitamins and with a distinctive flavor, it is perfect for sauces, stews, and traditional frying.',
-          origin: 'Ivory Coast',
+          origin: 'Spain',
           category: 'Oils',
         },
         // redOil: {
