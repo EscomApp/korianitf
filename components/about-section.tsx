@@ -73,7 +73,7 @@ export function AboutSection() {
             {/* Main Image */}
             <div className="relative h-[450px] lg:h-[550px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80"
+                src="https://look.jmgbb.com/images/m6cwARjtst.jpg"
                 alt="Import Export Operations"
                 fill
                 className="object-cover"
@@ -84,7 +84,7 @@ export function AboutSection() {
             {/* Floating secondary image */}
             <div className="absolute -bottom-8 -right-8 w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden shadow-2xl border-4 border-background hidden md:block">
               <Image
-                src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=400&q=80"
+                src="https://look.jmgbb.com/images/AfSSXA9KNm.jpg"
                 alt="Food Products"
                 fill
                 className="object-cover"
