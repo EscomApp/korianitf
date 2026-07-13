@@ -96,11 +96,11 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-primary mt-0.5" />
-                <span className="text-white/70">+34 671 79 09 67</span>
+                <span className="text-white/70">+34 742 036 349</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-primary mt-0.5" />
-                <span className="text-white/70">site@korianitfish.es</span>
+                <span className="text-white/70">contact@korianitfish.es</span>
               </li>
             </ul>
           </div>

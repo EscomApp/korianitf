@@ -99,12 +99,12 @@ export function ContactSection() {
     {
       icon: Phone,
       label: t.contact.info.phone,
-      value: '+34 671 79 09 67',
+      value: '+34 742 036 349',
     },
     {
       icon: Mail,
       label: t.contact.info.email,
-      value: 'site@korianitfish.es',
+      value: 'contact@korianitfish.es',
     },
     {
       icon: Clock,
@@ -240,7 +240,7 @@ export function ContactSection() {
                       value={formState.phone}
                       onChange={handleChange}
                       className="w-full px-5 py-4 bg-muted/50 border border-border rounded-xl focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all text-foreground placeholder:text-muted-foreground"
-                      placeholder="+34 671 79 09 67"
+                      placeholder="+34 742 036 349"
                     />
                   </div>
                   <div>
