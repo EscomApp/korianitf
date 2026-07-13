@@ -15,7 +15,9 @@ const productImages = {
   spices: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80',
   palmOil: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80',
   // redOil: 'https://marketplace.agrosfer.co/_next/image?url=https%3A%2F%2Fapi.agrosfer.co%2Fstorage%2Fmarkeplace%2Fproduct%2Fwhatsapp_image_2025_02_03_a_105316_45fb9cf5jpg_1738576581&w=2048&q=75',
-  driedFish: 'https://images.unsplash.com/photo-1510130387422-82bed34b37e9?w=600&q=80',
+  tuna: 'https://look.jmgbb.com/images/ozTd7nLNEM.jpg',
+  tilapia: 'https://look.jmgbb.com/images/w5HT-rU-cE.jpg',
+  fruit: 'https://look.jmgbb.com/images/3IKjc2s0g7.jpg',
 };
 
 type ProductKey = keyof typeof productImages;
@@ -35,7 +37,7 @@ export function ProductsSection() {
   const { ref: sectionRef, isVisible: sectionVisible } = useScrollAnimation<HTMLElement>();
   const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation<HTMLDivElement>();
 
-  const productKeys: ProductKey[] = ['attieke', 'sweetBanana', 'cassava', 'spices', 'palmOil', 'driedFish'];
+  const productKeys: ProductKey[] = ['attieke', 'sweetBanana', 'cassava', 'spices', 'palmOil', 'tuna', 'tilapia', 'fruit'];
 
   const products: Product[] = productKeys.map((key) => {
     const productData = t.products.items[key];
